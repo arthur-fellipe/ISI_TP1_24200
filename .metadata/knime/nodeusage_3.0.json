@@ -1,0 +1,339 @@
+{
+    "version": "5.3.2.v202409051351",
+    "created": "2024-10-25 00:32",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.meta.looper.LoopEndJoin2NodeFactory",
+                "nodename": "Loop End (Column Append)",
+                "nrexecs": 392,
+                "nrfails": 3,
+                "exectime": 1657,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.looper.columnlist2.ColumnListLoopStartNodeFactory",
+                "nodename": "Column List Loop Start",
+                "nrexecs": 1030,
+                "nrfails": 0,
+                "exectime": 368,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory",
+                "successornodename": "Sorter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.columnheaderextract.ColumnHeaderExtractorNodeFactory",
+                "nodename": "Column Name Extractor",
+                "nrexecs": 914,
+                "nrfails": 0,
+                "exectime": 731,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory",
+                "successornodename": "Sorter"
+            },
+            {
+                "id": "org.knime.base.node.flowvariable.tablerowtovariable3.TableToVariable3NodeFactory",
+                "nodename": "Table Row to Variable",
+                "nrexecs": 912,
+                "nrfails": 0,
+                "exectime": 220,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory",
+                "successornodename": "Sorter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory",
+                "nodename": "String Manipulation (Variable)",
+                "nrexecs": 449,
+                "nrfails": 0,
+                "exectime": 91,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory",
+                "successornodename": "CSV Writer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.rank.RankNodeFactory",
+                "nodename": "Rank",
+                "nrexecs": 393,
+                "nrfails": 0,
+                "exectime": 7764,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.columnrenameregex.ColumnRenameRegexNodeFactory",
+                "nodename": "Column Rename (Regex)",
+                "nrexecs": 392,
+                "nrfails": 0,
+                "exectime": 26,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
+                "nodename": "Joiner",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 393,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.meta.looper.columnlist2.ColumnListLoopStartNodeFactory",
+                "successornodename": "Column List Loop Start"
+            },
+            {
+                "id": "org.knime.json.node.fromtable.TableToJsonNodeFactory",
+                "nodename": "Table to JSON",
+                "nrexecs": 12,
+                "nrfails": 0,
+                "exectime": 1395,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory",
+                "nodename": "CSV Writer",
+                "nrexecs": 12,
+                "nrfails": 0,
+                "exectime": 750,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
+                "nodename": "Excel Writer",
+                "nrexecs": 12,
+                "nrfails": 6,
+                "exectime": 3988,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.sorter.SorterNodeFactory",
+                "nodename": "Sorter",
+                "nrexecs": 638,
+                "nrfails": 0,
+                "exectime": 4893,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory",
+                "successornodename": "Loop End"
+            },
+            {
+                "id": "org.knime.base.views.node.barchart.BarChartNodeFactory",
+                "nodename": "Bar Chart",
+                "nrexecs": 641,
+                "nrfails": 0,
+                "exectime": 1294506,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory",
+                "successornodename": "String Manipulation (Variable)"
+            },
+            {
+                "id": "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory",
+                "nodename": "Loop End",
+                "nrexecs": 678,
+                "nrfails": 4,
+                "exectime": 257,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.imagewriter.table.ImageWriterTableNodeFactory",
+                "nodename": "Image Writer (Table)",
+                "nrexecs": 632,
+                "nrfails": 0,
+                "exectime": 12793,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory",
+                "successornodename": "Loop End"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.imagewriter.ImagePortWriterNodeFactory",
+                "nodename": "Image Writer (Port)",
+                "nrexecs": 2,
+                "nrfails": 2,
+                "exectime": 65,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory",
+                "successornodename": "Loop End"
+            },
+            {
+                "id": "org.knime.base.node.image.ImageToTableNodeFactory",
+                "nodename": "Image to Table",
+                "nrexecs": 635,
+                "nrfails": 0,
+                "exectime": 11655,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory",
+                "successornodename": "String Manipulation (Variable)"
+            },
+            {
+                "id": "org.knime.base.filehandling.urltofilepathvariable.UrlToFilePathVariableNodeFactory",
+                "nodename": "URL to File Path (Variable)",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.io.filehandling.imagewriter.ImagePortWriterNodeFactory",
+                "successornodename": "Image Writer (Port)"
+            },
+            {
+                "id": "org.knime.base.filehandling.urltofilepath.UrlToFilePathNodeFactory",
+                "nodename": "URL to File Path",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory",
+                "nodename": "Table Row to Variable Loop Start",
+                "nrexecs": 47,
+                "nrfails": 0,
+                "exectime": 27,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.rest.nodes.get.RestGetNodeFactory",
+                "nodename": "GET Request",
+                "nrexecs": 47,
+                "nrfails": 0,
+                "exectime": 16882,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.flowcontrol.sleep.SleepNodeFactory",
+                "nodename": "Wait...",
+                "nrexecs": 47,
+                "nrfails": 0,
+                "exectime": 282069,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
+                "nodename": "JSON Path",
+                "nrexecs": 47,
+                "nrfails": 0,
+                "exectime": 1205,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.ungroup.UngroupNodeFactory",
+                "nodename": "Ungroup",
+                "nrexecs": 47,
+                "nrfails": 0,
+                "exectime": 75,
+                "nrcreated": 0,
+                "successor": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
+                "successornodename": "Excel Writer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
+                "nodename": "Missing Value",
+                "nrexecs": 47,
+                "nrfails": 0,
+                "exectime": 243,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory",
+                "successornodename": "CSV Writer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory",
+                "nodename": "String Manipulation",
+                "nrexecs": 47,
+                "nrfails": 0,
+                "exectime": 41,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
+                "nrexecs": 51,
+                "nrfails": 0,
+                "exectime": 9,
+                "nrcreated": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.ext.jep.JEPNodeFactory",
+                "nodename": "Math Formula",
+                "nrexecs": 27,
+                "nrfails": 0,
+                "exectime": 208,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.meta.looper.columnlist2.ColumnListLoopStartNodeFactory",
+                "successornodename": "Column List Loop Start"
+            },
+            {
+                "id": "org.knime.time.node.filter.datetimebasedrowfilter.DateTimeBasedRowFilterNodeFactory",
+                "nodename": "Date&Time-based Row Filter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.js.base.node.configuration.input.date.DateDialogNodeFactory",
+                "nodename": "Date&Time Configuration",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory",
+                "successornodename": "String Manipulation"
+            },
+            {
+                "id": "org.knime.filehandling.utility.nodes.createpaths.CreatePathVariablesNodeFactory",
+                "nodename": "Create File/Folder Variables",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 7,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
+                "successornodename": "Excel Writer"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+            "WEB_UI": 17
+        }
+    },
+    "uptime": 82622278,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "none",
+    "launches": 1,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 82622278,
+    "crashes": 0,
+    "properlyShutDown": true
+}

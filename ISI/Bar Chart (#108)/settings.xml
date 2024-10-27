@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="categoryColumn">
+            <entry key="selected" type="xstring" value="Name"/>
+            <config key="compatibleTypes_Internals">
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="org.knime.core.data.StringValue"/>
+                <entry key="1" type="xstring" value="org.knime.core.data.DataValue"/>
+                <entry key="2" type="xstring" value="org.knime.core.data.NominalValue"/>
+            </config>
+        </config>
+        <entry key="aggregationMethod" type="xstring" value="NONE"/>
+        <config key="frequencyColumns">
+            <config key="selected_Internals">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="mode" type="xstring" value="MANUAL"/>
+            <config key="patternFilter">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="isCaseSensitive" type="xboolean" value="false"/>
+                <entry key="isInverted" type="xboolean" value="false"/>
+            </config>
+            <config key="manualFilter">
+                <config key="manuallySelected">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+                <config key="manuallyDeselected">
+                    <entry key="array-size" type="xint" value="41"/>
+                    <entry key="0" type="xstring" value="Age"/>
+                    <entry key="1" type="xstring" value="Age Ranking"/>
+                    <entry key="2" type="xstring" value="Appearences Ranking"/>
+                    <entry key="3" type="xstring" value="Lineups Ranking"/>
+                    <entry key="4" type="xstring" value="Minutes Ranking"/>
+                    <entry key="5" type="xstring" value="Shots Total Ranking"/>
+                    <entry key="6" type="xstring" value="Shots on Target Ranking"/>
+                    <entry key="7" type="xstring" value="Goals Ranking"/>
+                    <entry key="8" type="xstring" value="Assists Ranking"/>
+                    <entry key="9" type="xstring" value="Passes Total Ranking"/>
+                    <entry key="10" type="xstring" value="Key Passes Ranking"/>
+                    <entry key="11" type="xstring" value="Tackles Ranking"/>
+                    <entry key="12" type="xstring" value="Blocks Ranking"/>
+                    <entry key="13" type="xstring" value="Interceptions Ranking"/>
+                    <entry key="14" type="xstring" value="Duels Total Ranking"/>
+                    <entry key="15" type="xstring" value="Duels Won Ranking"/>
+                    <entry key="16" type="xstring" value="Attempted Dribbles Ranking"/>
+                    <entry key="17" type="xstring" value="Successful Dribbles Ranking"/>
+                    <entry key="18" type="xstring" value="Fouls Drawn Ranking"/>
+                    <entry key="19" type="xstring" value="Fouls Commited Ranking"/>
+                    <entry key="20" type="xstring" value="Yellow Cards Ranking"/>
+                    <entry key="21" type="xstring" value="Second Yellow Cards Ranking"/>
+                    <entry key="22" type="xstring" value="Red Cards Ranking"/>
+                    <entry key="23" type="xstring" value="Penalties Scored Ranking"/>
+                    <entry key="24" type="xstring" value="Penalties Missed Ranking"/>
+                    <entry key="25" type="xstring" value="Participations in Goals Ranking"/>
+                    <entry key="26" type="xstring" value="Minutes per Goal Ranking"/>
+                    <entry key="27" type="xstring" value="Minutes per Participation Ranking"/>
+                    <entry key="28" type="xstring" value="Minutes per Assists Ranking"/>
+                    <entry key="29" type="xstring" value="Penalty Conversion Ranking"/>
+                    <entry key="30" type="xstring" value="On Target Conversion per Total Shots Ranking"/>
+                    <entry key="31" type="xstring" value="Shots per Goal Ranking"/>
+                    <entry key="32" type="xstring" value="Goal Conversion per Total Shots Ranking"/>
+                    <entry key="33" type="xstring" value="Goal Conversion per Shots on Target Ranking"/>
+                    <entry key="34" type="xstring" value="Pencertage of Key Passes per Total Passes Ranking"/>
+                    <entry key="35" type="xstring" value="Key Passes per Assist Ranking"/>
+                    <entry key="36" type="xstring" value="Total Passes per Assist Ranking"/>
+                    <entry key="37" type="xstring" value="Percentage of Successful Dribbles Ranking"/>
+                    <entry key="38" type="xstring" value="Percentage of Duels Won Ranking"/>
+                    <entry key="39" type="xstring" value="Minutes per Yellow Card Ranking"/>
+                    <entry key="40" type="xstring" value="Minutes per Red Card Ranking"/>
+                </config>
+                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
+            </config>
+            <config key="typeFilter">
+                <config key="selectedTypes">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <entry key="generateImage" type="xboolean" value="true"/>
+        <entry key="width" type="xint" value="800"/>
+        <entry key="height" type="xint" value="600"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="frequencyColumns">
+                <config key="manualFilter">
+                    <config key="manuallySelected">
+                        <entry key="used_variable" type="xstring" value="currentColumnName"/>
+                        <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                    </config>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="view">
+        <entry key="limitRows" type="xstring" value="CUSTOM"/>
+        <entry key="maxRows" type="xint" value="20"/>
+        <entry key="title" type="xstring" value="Participations in Goals"/>
+        <entry key="useCustomCategoryAxisLabel" type="xboolean" value="true"/>
+        <entry key="customCategoryAxisLabel" type="xstring" value=""/>
+        <entry key="useCustomFrequencyAxisLabel" type="xboolean" value="true"/>
+        <entry key="customFrequencyAxisLabel" type="xstring" value=""/>
+        <config key="manualAxisLimits">
+            <entry key="min" type="xdouble" value="0.0"/>
+            <entry key="max" type="xdouble" value="20.0"/>
+        </config>
+        <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
+        <entry key="direction" type="xstring" value="HORIZONTAL"/>
+        <entry key="chartType" type="xstring" value="GROUPED"/>
+        <entry key="barGroups" type="xstring" value="CATEGORIES"/>
+        <entry key="showLegend" type="xboolean" value="true"/>
+        <entry key="showValues" type="xboolean" value="true"/>
+        <entry key="allowImageDownload" type="xboolean" value="true"/>
+        <entry key="showTooltip" type="xboolean" value="true"/>
+        <entry key="selectionMode" type="xstring" value="EDIT"/>
+        <entry key="enableAnimation" type="xboolean" value="true"/>
+    </config>
+    <config key="view_variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="title">
+                <entry key="used_variable" type="xstring" value="currentColumnName"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="There are rows with missing values in one of the selected frequency columns. These frequencies are not displayed for this row."/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.base.views.node.barchart.BarChartNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Bar Chart"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409040940"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409040940"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input Table"/>
+        <config key="Output Image">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Bar Chart"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="PNG Image 800 x 600 with 55 KB"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+            <config key="object_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_1"/>
+            </config>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
