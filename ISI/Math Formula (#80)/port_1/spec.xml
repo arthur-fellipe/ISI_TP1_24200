@@ -77,13 +77,13 @@
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Paraguay"/>
+                        <entry key="StringCell" type="xstring" value="Uruguay"/>
                     </config>
                 </config>
                 <config key="5">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Uruguay"/>
+                        <entry key="StringCell" type="xstring" value="Paraguay"/>
                     </config>
                 </config>
                 <config key="6">
